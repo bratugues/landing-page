@@ -107,7 +107,7 @@ ul {
     align-items: center;
     gap:30px;
     padding: 50px;
-    border: 3px solid red;
+    margin-bottom: 50px;
 }
 
 .infotxt h2{
@@ -129,3 +129,39 @@ ul {
 .listitem p{
     text-align: center;
 }
+
+.third{
+    background-color: #E5E7EB;
+    min-height: 440px;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote{
+    min-height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotecontent{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    max-width: 790px;
+}
+
+#test1{
+    align-self: end;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 35px;
+}
+
+
