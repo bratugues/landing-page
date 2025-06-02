@@ -157,11 +157,52 @@ ul {
     max-width: 790px;
 }
 
-#test1{
+#quotation{
     align-self: end;
     font-weight: bold;
     font-size: 20px;
     margin-right: 35px;
 }
+
+.fourth{
+    min-height: 350px;
+}
+
+
+.cta{
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.blue-box{
+    min-height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.ctatext h2{
+    color: white;
+}
+
+ .ctatext p{
+    color: #E5E7EB;
+ }
+
+.ctacontent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 150px;
+}
+
+.ctabutton a{
+    border: 2px solid #F9F4F8;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
 
 
